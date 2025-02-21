@@ -63,15 +63,6 @@ Two classifiers were implemented:
   - Dropout.  
   - Early stopping to prevent overfitting.  
 
-### 4. Performance Evaluation  
-- **Metrics:**  
-  - Average accuracy and standard deviation over 10 folds.  
-  - Cumulative confusion matrix.  
-- **Results:**  
-  - MLP Accuracy: X% (± Y%).  
-  - CNN 2D Accuracy: X% (± Y%).  
----  
-
 ## Conclusions  
 - The **MLP** showed satisfactory performance, but the **CNN 2D** outperformed it in terms of accuracy, demonstrating the effectiveness of convolutional networks for audio classification tasks.  
 - Feature extraction using MFCCs was crucial for the success of the CNN 2D.
